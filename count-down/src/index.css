@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html,body{
+	width: 100%;
+	height: 100%;
+	display: flex ;
+	font-size: 38px;
+	font-family: sans-serif ;
+	flex-flow: column;
+}
+
+header{
+	display: flex;
+	flex-flow: row-reverse;
+	width: 80%
+	min-height: 20%;
+	font-size: 28px;
+	background-color: orange;
+	padding: 5px;
+}
+
+section{
+	display: flex;
+	align-self: center;
+}
+
+.countDownList > ul{
+	list-style-type: none;
+}
+
+.event{
+	width: 100%;
+	font-size: 45px;
+	font-family: fantasy;
+
+
+
+}

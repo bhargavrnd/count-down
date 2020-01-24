@@ -5,8 +5,15 @@
 	<title>Document</title>
 </head>
 <body>
-<div id='root'></div>
+	<header> 
+		<banner>Time: <span id='time'></span> 
+		 <script type="text/javascript"> 
+		 setInterval(()=>{
+		 	document.querySelector('#time').innerHTML = Date()},100)</script>
+		</banner>
+	</header>
+	<section id='root'></section>
 </body>
 	<script src="./index.tsx"></script>
-
+<link rel="stylesheet" href="./index.css">
 </html>

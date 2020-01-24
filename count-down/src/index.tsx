@@ -6,7 +6,7 @@ import CountDownList from './components/CountDownList'
 import * as serviceWorker from './serviceWorker';
 
 
-    let listItems =  [{'itemName': 'Birthday', 'itemDate': 'May 4'}];
+    let listItems =  [{'itemName': 'Birthday', 'itemDate': '05/04/2020' }];
 
 ReactDOM.render(<CountDownList listItems={listItems}/>, document.getElementById('root'));
 
